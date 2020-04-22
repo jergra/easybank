@@ -9,7 +9,7 @@ body {
         grid-template-columns: 1fr;
         grid-auto-rows: minmax(100px, auto);
         min-width: 375px;
-        background-image: linear-gradient(to bottom, black, transparent, transparent, transparent, transparent, transparent, transparent);
+        background-color: white;
         
         grid-template-areas:
             "mobileNav"
@@ -70,7 +70,7 @@ body {
         z-index: 4;
     }
     .optionLink {
-        padding-top: 18px;
+        padding-top: 22px;
     }
     .optionLink a {
         color: black;
@@ -109,14 +109,12 @@ body {
     #graphic1Mobile {
         grid-area: graphic1Mobile;
         margin-top: -380px;
-        filter: brightness(20%);
         z-index: 1;
     }
     #graphic2Mobile {
         grid-area: graphic2Mobile;
         margin-top: -550px;
-        filter: brightness(20%);
-        z-index: -1;
+        z-index: 1;
     }
     #graphic2Mobile img {
         width: 330px;
@@ -269,7 +267,7 @@ body {
         grid-area: footer;
         height: 560px;
         width: 375px;
-        margin-top: -30px;
+        margin-top: -50px;
         background-color: hsl(233, 26%, 24%);
         margin-bottom: 30px;
         text-align: center;
@@ -334,4 +332,3 @@ body {
     .attribution a { 
         color: hsl(228, 45%, 44%); 
     }
-
